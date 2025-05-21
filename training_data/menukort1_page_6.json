@@ -1,0 +1,322 @@
+[
+  {
+    "type": "category",
+    "name": "FORRETTER - STARTERS",
+    "bbox": [
+      611,
+      367,
+      962,
+      401
+    ]
+  },
+  {
+    "type": "item",
+    "name": "ASPARGES - ASPARAGUS",
+    "bbox": [
+      637,
+      401,
+      947,
+      429
+    ]
+  },
+  {
+    "type": "description",
+    "description": "POCHERET 2G, LUFTT@RRET SKINKE & SAUCE HOLLANDAISE",
+    "bbox": [
+      414,
+      428,
+      1168,
+      461
+    ]
+  },
+  {
+    "type": "price",
+    "price": "195",
+    "bbox": [
+      746,
+      457,
+      826,
+      487
+    ]
+  },
+  {
+    "type": "item",
+    "name": "FARSERET LYSSEJ - POLLACK",
+    "bbox": [
+      600,
+      517,
+      980,
+      550
+    ]
+  },
+  {
+    "type": "description",
+    "description": "COURGETTE, GULEROD & BEURRE BLANC SAUCE",
+    "bbox": [
+      494,
+      548,
+      1090,
+      581
+    ]
+  },
+  {
+    "type": "price",
+    "price": "195",
+    "bbox": [
+      764,
+      584,
+      818,
+      606
+    ]
+  },
+  {
+    "type": "item",
+    "name": "KAMMUSLING - SCALLOP.",
+    "bbox": [
+      628,
+      635,
+      957,
+      671
+    ]
+  },
+  {
+    "type": "description",
+    "description": "CIKORIE, RADISE & VANILJE VINAIGRETTE",
+    "bbox": [
+      522,
+      669,
+      1064,
+      701
+    ]
+  },
+  {
+    "type": "price",
+    "price": "195",
+    "bbox": [
+      759,
+      703,
+      834,
+      732
+    ]
+  },
+  {
+    "type": "category",
+    "name": "HOVEDRETTER - MAINS",
+    "bbox": [
+      630,
+      758,
+      951,
+      798
+    ]
+  },
+  {
+    "type": "item",
+    "name": "OKSEFILET - BEEF FILET",
+    "bbox": [
+      626,
+      826,
+      958,
+      850
+    ]
+  },
+  {
+    "type": "description",
+    "description": "LOG, SYLTET BOGEHATTE & SAUCE VERDE",
+    "bbox": [
+      522,
+      846,
+      1054,
+      880
+    ]
+  },
+  {
+    "type": "price",
+    "price": "295",
+    "bbox": [
+      755,
+      883,
+      821,
+      910
+    ]
+  },
+  {
+    "type": "item",
+    "name": "KULMULE - HAKE",
+    "bbox": [
+      668,
+      943,
+      903,
+      970
+    ]
+  },
+  {
+    "type": "description",
+    "description": "BROCCOLI, KARAMELSTEN & MUSLING BLANQUETTE SAUC.",
+    "bbox": [
+      422,
+      965,
+      1148,
+      999
+    ]
+  },
+  {
+    "type": "price",
+    "price": "295",
+    "bbox": [
+      755,
+      999,
+      822,
+      1028
+    ]
+  },
+  {
+    "type": "item",
+    "name": "KROGMODNET SVINEKOTELLET - DRY AGE PORKCHOP",
+    "bbox": [
+      438,
+      1057,
+      1140,
+      1084
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SPIDSKAL, KRY & @L/BLOMME SAUCE",
+    "bbox": [
+      551,
+      1088,
+      1027,
+      1118
+    ]
+  },
+  {
+    "type": "price",
+    "price": "295",
+    "bbox": [
+      762,
+      1124,
+      818,
+      1149
+    ]
+  },
+  {
+    "type": "category",
+    "name": "SODT & OST - SWEET & CHEESE",
+    "bbox": [
+      559,
+      1167,
+      1025,
+      1211
+    ]
+  },
+  {
+    "type": "item",
+    "name": "OSTE - CHEESE",
+    "bbox": [
+      686,
+      1239,
+      888,
+      1272
+    ]
+  },
+  {
+    "type": "description",
+    "description": "3 SLAGS OSTE SERVE.\n\nMED KOMPOT & SPR@®DT BR@®D",
+    "bbox": [
+      456,
+      1270,
+      1121,
+      1302
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      751,
+      1305,
+      833,
+      1331
+    ]
+  },
+  {
+    "type": "item",
+    "name": "CREME BRULEE",
+    "bbox": [
+      673,
+      1350,
+      905,
+      1392
+    ]
+  },
+  {
+    "type": "description",
+    "description": "VANILJE, CRUMBLE & SORBET",
+    "bbox": [
+      599,
+      1393,
+      973,
+      1423
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      761,
+      1421,
+      832,
+      1450
+    ]
+  },
+  {
+    "type": "item",
+    "name": "RABARBER - RHUBARB",
+    "bbox": [
+      644,
+      1474,
+      941,
+      1513
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SKOVMAERKE - HAVRE - HVID CHOKOLADE",
+    "bbox": [
+      523,
+      1506,
+      1061,
+      1539
+    ]
+  },
+  {
+    "type": "price",
+    "price": "95",
+    "bbox": [
+      769,
+      1544,
+      812,
+      1569
+    ]
+  },
+  {
+    "type": "item",
+    "name": "PETIT FOURS",
+    "bbox": [
+      694,
+      1601,
+      887,
+      1629
+    ]
+  },
+  {
+    "type": "price",
+    "price": "65",
+    "bbox": [
+      765,
+      1634,
+      815,
+      1664
+    ]
+  }
+]

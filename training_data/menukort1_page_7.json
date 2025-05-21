@@ -1,0 +1,302 @@
+[
+  {
+    "type": "category",
+    "name": "KLASSIKERE - CLASSICS",
+    "bbox": [
+      508,
+      255,
+      1063,
+      314
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SALAT MED GEDEOST - SALAD WITH GOAT CHEESE",
+    "bbox": [
+      457,
+      373,
+      1140,
+      413
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SAT TRDE VAINQDDER RONDRBEDER & KRYDDERIIRTE VINATICRETTE",
+    "bbox": [
+      377,
+      411,
+      1210,
+      432
+    ]
+  },
+  {
+    "type": "price",
+    "price": "175",
+    "bbox": [
+      757,
+      439,
+      826,
+      474
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SALAT MED KYLLING - SALAD WITH CHICKEN",
+    "bbox": [
+      494,
+      469,
+      1078,
+      499
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SPRODE BRODFLAGER, GRAN OST & GRILLED PEBERFRUGT DRESSING.",
+    "bbox": [
+      367,
+      496,
+      1212,
+      531
+    ]
+  },
+  {
+    "type": "price",
+    "price": "175",
+    "bbox": [
+      748,
+      536,
+      831,
+      560
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BURGER",
+    "bbox": [
+      724,
+      563,
+      866,
+      590
+    ]
+  },
+  {
+    "type": "description",
+    "description": "POMMES FRITES, CHEDDAR & BACON",
+    "bbox": [
+      563,
+      591,
+      1014,
+      619
+    ]
+  },
+  {
+    "type": "price",
+    "price": "200",
+    "bbox": [
+      763,
+      632,
+      812,
+      644
+    ]
+  },
+  {
+    "type": "item",
+    "name": "VEGETAR BURGER - VEGETARIAN BURGER",
+    "bbox": [
+      519,
+      655,
+      1064,
+      678
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SVAMPEBOF, POMMES FRITES & SYLTEDE AGURKER",
+    "bbox": [
+      477,
+      685,
+      1101,
+      714
+    ]
+  },
+  {
+    "type": "price",
+    "price": "200",
+    "bbox": [
+      761,
+      712,
+      821,
+      740
+    ]
+  },
+  {
+    "type": "item",
+    "name": "RORT TATAR - BEEF TATAR",
+    "bbox": [
+      604,
+      732,
+      973,
+      772
+    ]
+  },
+  {
+    "type": "description",
+    "description": "RA A.GGEBLOMME, KRYDRET MAYO & POMMES FRITES",
+    "bbox": [
+      453,
+      768,
+      1133,
+      802
+    ]
+  },
+  {
+    "type": "price",
+    "price": "175",
+    "bbox": [
+      754,
+      797,
+      830,
+      828
+    ]
+  },
+  {
+    "type": "category",
+    "name": "BORN U. 12 AR - CHILDEREN'S MENU",
+    "bbox": [
+      356,
+      877,
+      1218,
+      942
+    ]
+  },
+  {
+    "type": "item",
+    "name": "FISKEFILET - FRIED PLAICE",
+    "bbox": [
+      590,
+      1011,
+      980,
+      1051
+    ]
+  },
+  {
+    "type": "description",
+    "description": "AGURK, POMMES FRITES & REMOULADE",
+    "bbox": [
+      543,
+      1050,
+      1066,
+      1081
+    ]
+  },
+  {
+    "type": "price",
+    "price": "120",
+    "bbox": [
+      738,
+      1084,
+      835,
+      1110
+    ]
+  },
+  {
+    "type": "item",
+    "name": "CHEDDAR, AGURK & POMMES FRITES",
+    "bbox": [
+      554,
+      1134,
+      1021,
+      1166
+    ]
+  },
+  {
+    "type": "price",
+    "price": "155",
+    "bbox": [
+      753,
+      1165,
+      852,
+      1193
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BURGER",
+    "bbox": [
+      725,
+      1108,
+      853,
+      1137
+    ]
+  },
+  {
+    "type": "description",
+    "description": "CHEDDAR, AGURK & POMMES FRITES",
+    "bbox": [
+      554,
+      1134,
+      1021,
+      1166
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BOLOGNESE",
+    "bbox": [
+      703,
+      1197,
+      888,
+      1225
+    ]
+  },
+  {
+    "type": "description",
+    "description": "PASTA, KETCHUP & OST",
+    "bbox": [
+      646,
+      1225,
+      946,
+      1258
+    ]
+  },
+  {
+    "type": "price",
+    "price": "120",
+    "bbox": [
+      765,
+      1260,
+      823,
+      1285
+    ]
+  },
+  {
+    "type": "item",
+    "name": "IS DESSERT - ICE CREAM DESSERT",
+    "bbox": [
+      560,
+      1282,
+      1003,
+      1315
+    ]
+  },
+  {
+    "type": "description",
+    "description": "VORES 3 SLAGS IS",
+    "bbox": [
+      672,
+      1314,
+      897,
+      1343
+    ]
+  },
+  {
+    "type": "price",
+    "price": "70",
+    "bbox": [
+      763,
+      1343,
+      815,
+      1375
+    ]
+  }
+]

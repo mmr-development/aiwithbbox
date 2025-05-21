@@ -1,0 +1,342 @@
+[
+  {
+    "type": "category",
+    "name": "FROKOST - LUNCH",
+    "bbox": [
+      547,
+      254,
+      1030,
+      320
+    ]
+  },
+  {
+    "type": "category",
+    "name": "SNACKS",
+    "bbox": [
+      725,
+      382,
+      855,
+      419
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SALTEDE MANDLER - SALTED ALMONDS",
+    "bbox": [
+      522,
+      439,
+      1062,
+      476
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      760,
+      478,
+      824,
+      501
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SALTEDE VALNODDER - SALTED WALNUTS",
+    "bbox": [
+      516,
+      500,
+      1081,
+      530
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      756,
+      530,
+      818,
+      559
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BROD FLAGER - BREAD FLAKES",
+    "bbox": [
+      588,
+      563,
+      988,
+      589
+    ]
+  },
+  {
+    "type": "description",
+    "description": "MED KRYDDERURTE SPREAD",
+    "bbox": [
+      607,
+      590,
+      989,
+      623
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      760,
+      622,
+      826,
+      651
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SPROD KYLLING - CRISPY CHICKEN",
+    "bbox": [
+      561,
+      648,
+      1029,
+      679
+    ]
+  },
+  {
+    "type": "description",
+    "description": "EDDIKE SALT, PEBER/LIME MAYO & KRYDDERURTE STOV",
+    "bbox": [
+      429,
+      674,
+      1143,
+      715
+    ]
+  },
+  {
+    "type": "price",
+    "price": "65",
+    "bbox": [
+      757,
+      716,
+      824,
+      737
+    ]
+  },
+  {
+    "type": "item",
+    "name": "@STERS NATURAL 3 STK - OYSTERS NATURAL 3 UNITS",
+    "bbox": [
+      449,
+      735,
+      1143,
+      768
+    ]
+  },
+  {
+    "type": "description",
+    "description": "MIGNONETTE SAUCE, TABASCO, CITRON",
+    "bbox": [
+      541,
+      770,
+      1041,
+      799
+    ]
+  },
+  {
+    "type": "price",
+    "price": "120",
+    "bbox": [
+      737,
+      794,
+      837,
+      827
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BAERII CAVIAR FRA LYKSVAD 10 G",
+    "bbox": [
+      573,
+      823,
+      1029,
+      858
+    ]
+  },
+  {
+    "type": "description",
+    "description": "CREME FRAICHE. SKALOTTELOG & BLINIS",
+    "bbox": [
+      537,
+      854,
+      1050,
+      883
+    ]
+  },
+  {
+    "type": "price",
+    "price": "280",
+    "bbox": [
+      743,
+      889,
+      853,
+      915
+    ]
+  },
+  {
+    "type": "category",
+    "name": "SMORREBROD - OPEN FACE SANDWICH",
+    "bbox": [
+      510,
+      1019,
+      1071,
+      1063
+    ]
+  },
+  {
+    "type": "item",
+    "name": "STEGTE SILD - PAN FRIED HERRING",
+    "bbox": [
+      538,
+      1075,
+      1033,
+      1119
+    ]
+  },
+  {
+    "type": "description",
+    "description": "LOGKOMPOT, RADISER & PURL@G",
+    "bbox": [
+      579,
+      1121,
+      1011,
+      1148
+    ]
+  },
+  {
+    "type": "price",
+    "price": "120",
+    "bbox": [
+      750,
+      1150,
+      831,
+      1175
+    ]
+  },
+  {
+    "type": "item",
+    "name": "FRITERET RODSPATTE - FRIED PLAICE",
+    "bbox": [
+      530,
+      1171,
+      1055,
+      1204
+    ]
+  },
+  {
+    "type": "description",
+    "description": "HOLLANDAIS\n\ni, HVIDE ASPARGES & REJER",
+    "bbox": [
+      532,
+      1206,
+      1055,
+      1236
+    ]
+  },
+  {
+    "type": "price",
+    "price": "140",
+    "bbox": [
+      761,
+      1243,
+      850,
+      1264
+    ]
+  },
+  {
+    "type": "item",
+    "name": "KARTOFFEL MAD - POTATOES",
+    "bbox": [
+      590,
+      1263,
+      991,
+      1301
+    ]
+  },
+  {
+    "type": "description",
+    "description": "BACON, RADISER & RYGEOST",
+    "bbox": [
+      599,
+      1300,
+      983,
+      1330
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      751,
+      1326,
+      844,
+      1355
+    ]
+  },
+  {
+    "type": "item",
+    "name": "H@ONSESALAT - CHICKEN SALAD *",
+    "bbox": [
+      552,
+      1348,
+      1010,
+      1390
+    ]
+  },
+  {
+    "type": "description",
+    "description": "EBLE, BACON & FRITERET LOG",
+    "bbox": [
+      591,
+      1386,
+      992,
+      1421
+    ]
+  },
+  {
+    "type": "price",
+    "price": "125",
+    "bbox": [
+      757,
+      1419,
+      825,
+      1443
+    ]
+  },
+  {
+    "type": "item",
+    "name": "DEN GRONNE - THE GREEN",
+    "bbox": [
+      572,
+      1435,
+      1023,
+      1472
+    ]
+  },
+  {
+    "type": "description",
+    "description": "BROCCOLI, ESTRAGON MAYO & KARAMELSTEN",
+    "bbox": [
+      499,
+      1468,
+      1089,
+      1500
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      751,
+      1504,
+      828,
+      1528
+    ]
+  }
+]

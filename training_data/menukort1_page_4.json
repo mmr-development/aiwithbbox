@@ -1,0 +1,132 @@
+[
+  {
+    "type": "category",
+    "name": "BORN U. 12 AR - CHILDEREN'S MENU",
+    "bbox": [
+      350,
+      407,
+      1240,
+      460
+    ]
+  },
+  {
+    "type": "item",
+    "name": "FISKEFILET - FRIED PLAICE",
+    "bbox": [
+      594,
+      536,
+      983,
+      576
+    ]
+  },
+  {
+    "type": "description",
+    "description": "AGURK, POMMES FRITES & REMOULADE",
+    "bbox": [
+      534,
+      572,
+      1038,
+      611
+    ]
+  },
+  {
+    "type": "price",
+    "price": "120",
+    "bbox": [
+      760,
+      606,
+      840,
+      633
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BURGER",
+    "bbox": [
+      722,
+      641,
+      868,
+      662
+    ]
+  },
+  {
+    "type": "description",
+    "description": "CHEDDAR, AGURK & POMMES FRITES",
+    "bbox": [
+      555,
+      661,
+      1031,
+      697
+    ]
+  },
+  {
+    "type": "price",
+    "price": "155",
+    "bbox": [
+      758,
+      702,
+      826,
+      720
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BOLOGNESE",
+    "bbox": [
+      704,
+      718,
+      906,
+      754
+    ]
+  },
+  {
+    "type": "description",
+    "description": "PASTA, KETCHUP & OST",
+    "bbox": [
+      638,
+      750,
+      947,
+      786
+    ]
+  },
+  {
+    "type": "price",
+    "price": "120",
+    "bbox": [
+      751,
+      788,
+      829,
+      814
+    ]
+  },
+  {
+    "type": "item",
+    "name": "IS DESSERT - ICE CREAM DESSERT",
+    "bbox": [
+      552,
+      798,
+      1015,
+      845
+    ]
+  },
+  {
+    "type": "description",
+    "description": "VORES 3 SLAGS IS",
+    "bbox": [
+      668,
+      845,
+      911,
+      876
+    ]
+  },
+  {
+    "type": "price",
+    "price": "70",
+    "bbox": [
+      754,
+      877,
+      841,
+      902
+    ]
+  }
+]

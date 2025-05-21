@@ -1,0 +1,382 @@
+[
+  {
+    "type": "category",
+    "name": "MAD",
+    "bbox": [
+      116,
+      548,
+      385,
+      656
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche fra l’Education Nationale",
+    "bbox": [
+      140,
+      689,
+      639,
+      742
+    ]
+  },
+  {
+    "type": "price",
+    "price": "125",
+    "bbox": [
+      811,
+      677,
+      964,
+      741
+    ]
+  },
+  {
+    "type": "description",
+    "description": "Veelg mellem: Bacon 0g lag eller spinat og gedeost\nServeres med salat",
+    "bbox": [
+      137,
+      739,
+      799,
+      825
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche med et glas vin",
+    "bbox": [
+      133,
+      841,
+      525,
+      891
+    ]
+  },
+  {
+    "type": "price",
+    "price": "165",
+    "bbox": [
+      834,
+      813,
+      960,
+      900
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Salade chévre chaud",
+    "bbox": [
+      123,
+      913,
+      514,
+      975
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      843,
+      916,
+      954,
+      965
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Grillet sandwich",
+    "bbox": [
+      135,
+      986,
+      426,
+      1038
+    ]
+  },
+  {
+    "type": "price",
+    "price": "85",
+    "bbox": [
+      835,
+      981,
+      985,
+      1039
+    ]
+  },
+  {
+    "type": "description",
+    "description": "Veelg mellem: Raget skinke/gouda-ost eller\nvegetar med bagt aubergine",
+    "bbox": [
+      124,
+      1039,
+      719,
+      1114
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Ristet @korugbrad med ost og salat",
+    "bbox": [
+      117,
+      1133,
+      708,
+      1196
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      811,
+      1138,
+      978,
+      1199
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Surdejsbolle med sm@r og ost",
+    "bbox": [
+      141,
+      1216,
+      637,
+      1264
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      844,
+      1216,
+      967,
+      1258
+    ]
+  },
+  {
+    "type": "category",
+    "name": "SNACKS",
+    "bbox": [
+      121,
+      1339,
+      431,
+      1452
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Hjemmeristede salte mandler",
+    "bbox": [
+      139,
+      1486,
+      602,
+      1542
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      863,
+      1493,
+      954,
+      1537
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Oliven",
+    "bbox": [
+      131,
+      1541,
+      323,
+      1582
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      832,
+      1530,
+      977,
+      1581
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Frugt",
+    "bbox": [
+      135,
+      1587,
+      305,
+      1646
+    ]
+  },
+  {
+    "type": "price",
+    "price": "8",
+    "bbox": [
+      865,
+      1589,
+      958,
+      1638
+    ]
+  },
+  {
+    "type": "category",
+    "name": "KAGER",
+    "bbox": [
+      124,
+      1709,
+      397,
+      1785
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Croissant eller pain au chocolat",
+    "bbox": [
+      141,
+      1814,
+      627,
+      1870
+    ]
+  },
+  {
+    "type": "price",
+    "price": "28",
+    "bbox": [
+      849,
+      1821,
+      960,
+      1863
+    ]
+  },
+  {
+    "type": "item",
+    "name": "@ko-rulle med pistacie/figen eller kokos/dadel",
+    "bbox": [
+      137,
+      1867,
+      838,
+      1917
+    ]
+  },
+  {
+    "type": "price",
+    "price": "32",
+    "bbox": [
+      862,
+      1871,
+      953,
+      1913
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Cookie",
+    "bbox": [
+      143,
+      1920,
+      282,
+      1955
+    ]
+  },
+  {
+    "type": "price",
+    "price": "31",
+    "bbox": [
+      864,
+      1919,
+      945,
+      1958
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Brownie eller Napoleonshat",
+    "bbox": [
+      145,
+      1961,
+      596,
+      2010
+    ]
+  },
+  {
+    "type": "price",
+    "price": "30",
+    "bbox": [
+      868,
+      1967,
+      966,
+      2011
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Nedde- eller hindbeermazarin",
+    "bbox": [
+      140,
+      2014,
+      638,
+      2057
+    ]
+  },
+  {
+    "type": "price",
+    "price": "32",
+    "bbox": [
+      869,
+      2012,
+      951,
+      2053
+    ]
+  },
+  {
+    "type": "category",
+    "name": "TILBUD:",
+    "bbox": [
+      125,
+      2234,
+      354,
+      2312
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Filterkaffe eller te + cookie eller croissant",
+    "bbox": [
+      138,
+      2329,
+      830,
+      2390
+    ]
+  },
+  {
+    "type": "price",
+    "price": "50",
+    "bbox": [
+      845,
+      2326,
+      947,
+      2394
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche + 1 glas vin",
+    "bbox": [
+      127,
+      2403,
+      492,
+      2457
+    ]
+  },
+  {
+    "type": "price",
+    "price": "165",
+    "bbox": [
+      833,
+      2399,
+      947,
+      2439
+    ]
+  }
+]

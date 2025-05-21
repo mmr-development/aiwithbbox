@@ -1,0 +1,362 @@
+[
+  {
+    "type": "category",
+    "name": "FROKOST - LUNCH",
+    "bbox": [
+      556,
+      232,
+      1021,
+      289
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SALAT MED GEDEOST - SALAD WITH GOAT CHEESE*",
+    "bbox": [
+      447,
+      331,
+      1142,
+      373
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SALAT MED KYLLING - SALAD WITH CHICKEN",
+    "bbox": [
+      491,
+      457,
+      1086,
+      494
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SALTEDE VALN@DDER, RODBEDER & KRYDDERURTE VINAIGRETTE",
+    "bbox": [
+      381,
+      371,
+      1214,
+      407
+    ]
+  },
+  {
+    "type": "price",
+    "price": "175",
+    "bbox": [
+      746,
+      409,
+      845,
+      436
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SPRODE BRODFLAGER, GRAN OST & GRILLED PEBERFRUGTS DRESSING",
+    "bbox": [
+      361,
+      495,
+      1222,
+      526
+    ]
+  },
+  {
+    "type": "price",
+    "price": "175",
+    "bbox": [
+      755,
+      526,
+      827,
+      555
+    ]
+  },
+  {
+    "type": "item",
+    "name": "RORT TATAR - BEEF TATAR",
+    "bbox": [
+      591,
+      578,
+      982,
+      619
+    ]
+  },
+  {
+    "type": "description",
+    "description": "RA AGGGEBLOMME, KRYDRET MAYO & POMMES FRITES",
+    "bbox": [
+      457,
+      616,
+      1123,
+      651
+    ]
+  },
+  {
+    "type": "price",
+    "price": "175",
+    "bbox": [
+      725,
+      650,
+      849,
+      677
+    ]
+  },
+  {
+    "type": "item",
+    "name": "PIL SELV REJER - PRAWNS.",
+    "bbox": [
+      609,
+      709,
+      977,
+      736
+    ]
+  },
+  {
+    "type": "description",
+    "description": "GRILLET BR@D, CITRON & SAUCE TARTAR",
+    "bbox": [
+      524,
+      734,
+      1049,
+      771
+    ]
+  },
+  {
+    "type": "price",
+    "price": "185",
+    "bbox": [
+      740,
+      772,
+      839,
+      801
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BURGER",
+    "bbox": [
+      680,
+      826,
+      892,
+      865
+    ]
+  },
+  {
+    "type": "description",
+    "description": "POMMES FRITES, CHEDDAR & BACON",
+    "bbox": [
+      554,
+      853,
+      1022,
+      887
+    ]
+  },
+  {
+    "type": "price",
+    "price": "200",
+    "bbox": [
+      751,
+      885,
+      860,
+      913
+    ]
+  },
+  {
+    "type": "item",
+    "name": "VEGETAR BURGER - VEGETARIAN BURGER",
+    "bbox": [
+      511,
+      941,
+      1084,
+      975
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SVAMPEBOPF, POMMES FRITES & SYLTEDE AGURKER",
+    "bbox": [
+      476,
+      979,
+      1122,
+      1006
+    ]
+  },
+  {
+    "type": "price",
+    "price": "200",
+    "bbox": [
+      732,
+      1003,
+      848,
+      1036
+    ]
+  },
+  {
+    "type": "item",
+    "name": "LANGTIDSBAGT KNOLDSELLERI - SLOW ROASTED CELERIAC",
+    "bbox": [
+      389,
+      1060,
+      1213,
+      1097
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SALSA VERDE, KARAMELSTEN & HVID BONNE CREM",
+    "bbox": [
+      462,
+      1099,
+      1133,
+      1128
+    ]
+  },
+  {
+    "type": "price",
+    "price": "185",
+    "bbox": [
+      754,
+      1123,
+      831,
+      1157
+    ]
+  },
+  {
+    "type": "category",
+    "name": "S@DT & OST - SWEET & CHEESE",
+    "bbox": [
+      550,
+      1256,
+      1036,
+      1312
+    ]
+  },
+  {
+    "type": "item",
+    "name": "OSTE - CHEESE",
+    "bbox": [
+      664,
+      1340,
+      911,
+      1371
+    ]
+  },
+  {
+    "type": "description",
+    "description": "3 SLAGS OSTE SERVERES MED KOMPOT & SPRODT BROD",
+    "bbox": [
+      441,
+      1364,
+      1167,
+      1404
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      728,
+      1406,
+      861,
+      1427
+    ]
+  },
+  {
+    "type": "item",
+    "name": "CREME BRULEE",
+    "bbox": [
+      674,
+      1455,
+      907,
+      1488
+    ]
+  },
+  {
+    "type": "description",
+    "description": "VANILJE, CRUMBLE & SORBET",
+    "bbox": [
+      603,
+      1488,
+      986,
+      1530
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      757,
+      1531,
+      816,
+      1546
+    ]
+  },
+  {
+    "type": "item",
+    "name": "RABARBER - RHUBARB",
+    "bbox": [
+      628,
+      1572,
+      949,
+      1609
+    ]
+  },
+  {
+    "type": "description",
+    "description": "SKOVMAERKE - HAVRE - HVID CHOKOLADE",
+    "bbox": [
+      520,
+      1609,
+      1064,
+      1642
+    ]
+  },
+  {
+    "type": "price",
+    "price": "95",
+    "bbox": [
+      741,
+      1648,
+      838,
+      1669
+    ]
+  },
+  {
+    "type": "item",
+    "name": "DAGENS KAGE - CAKE OF THE DAY",
+    "bbox": [
+      566,
+      1699,
+      1023,
+      1735
+    ]
+  },
+  {
+    "type": "price",
+    "price": "100",
+    "bbox": [
+      751,
+      1735,
+      856,
+      1765
+    ]
+  },
+  {
+    "type": "item",
+    "name": "PETIT FOURS",
+    "bbox": [
+      696,
+      1789,
+      890,
+      1820
+    ]
+  },
+  {
+    "type": "price",
+    "price": "65",
+    "bbox": [
+      760,
+      1822,
+      819,
+      1849
+    ]
+  }
+]

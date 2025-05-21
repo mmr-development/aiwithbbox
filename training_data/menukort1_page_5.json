@@ -1,0 +1,172 @@
+[
+  {
+    "type": "category",
+    "name": "SNACKS",
+    "bbox": [
+      721,
+      406,
+      870,
+      448
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SALTEDE MANDLER - SALTED ALMONDS",
+    "bbox": [
+      508,
+      469,
+      1064,
+      511
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      762,
+      513,
+      817,
+      537
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SALTEDE VALNODDER - SALTED WALNUTS",
+    "bbox": [
+      512,
+      561,
+      1064,
+      602
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      758,
+      603,
+      816,
+      624
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BROD FLAGER - BREAD FLAKES",
+    "bbox": [
+      575,
+      657,
+      1002,
+      683
+    ]
+  },
+  {
+    "type": "description",
+    "description": "MED KRYDDERURTE SPREAD",
+    "bbox": [
+      602,
+      685,
+      983,
+      723
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      766,
+      718,
+      814,
+      745
+    ]
+  },
+  {
+    "type": "item",
+    "name": "SPROD KYLLING - CRISPY CHICKEN",
+    "bbox": [
+      563,
+      769,
+      1019,
+      810
+    ]
+  },
+  {
+    "type": "description",
+    "description": "EDDIKE SALT, PEBER/LIME MAYO & KRYDDERURTE STOV",
+    "bbox": [
+      432,
+      810,
+      1146,
+      841
+    ]
+  },
+  {
+    "type": "price",
+    "price": "65",
+    "bbox": [
+      765,
+      836,
+      819,
+      865
+    ]
+  },
+  {
+    "type": "item",
+    "name": "@STERS NATURAL 3 STK - OYSTERS NATURAL 3 UNIT",
+    "bbox": [
+      464,
+      897,
+      1125,
+      930
+    ]
+  },
+  {
+    "type": "description",
+    "description": "MIGNONETTE SAUCE, TABASCO, CITRON",
+    "bbox": [
+      542,
+      929,
+      1051,
+      961
+    ]
+  },
+  {
+    "type": "price",
+    "price": "120",
+    "bbox": [
+      759,
+      959,
+      837,
+      990
+    ]
+  },
+  {
+    "type": "item",
+    "name": "BAERII CAVIAR FRA LYKSVAD 10 G",
+    "bbox": [
+      557,
+      1013,
+      1011,
+      1048
+    ]
+  },
+  {
+    "type": "description",
+    "description": "CREME FRAICHE, SKALOTTELOG & BLINIS",
+    "bbox": [
+      537,
+      1047,
+      1051,
+      1077
+    ]
+  },
+  {
+    "type": "price",
+    "price": "280",
+    "bbox": [
+      758,
+      1077,
+      822,
+      1106
+    ]
+  }
+]

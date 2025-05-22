@@ -1,0 +1,43 @@
+# Ignore model output and checkpoints
+layoutlmv3-menu/
+*.ckpt
+*.pth
+*.pt
+*.h5
+
+# Ignore Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore annotation tool outputs (if any)
+training_images/
+training_data/
+
+# Ignore PDF/image conversion outputs (if not needed in repo)
+*.png
+*.jpg
+*.jpeg
+
+# Ignore VSCode settings
+.vscode/

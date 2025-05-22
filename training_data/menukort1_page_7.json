@@ -21,7 +21,7 @@
   },
   {
     "type": "description",
-    "description": "SAT TRDE VAINQDDER RONDRBEDER & KRYDDERIIRTE VINATICRETTE",
+    "description": "SALTEDE VALNØDDER, RØDBEDER & KRYDDERURTE VINAIGRETTE",
     "bbox": [
       377,
       411,
@@ -51,7 +51,7 @@
   },
   {
     "type": "description",
-    "description": "SPRODE BRODFLAGER, GRAN OST & GRILLED PEBERFRUGT DRESSING.",
+    "description": "SPRØDE BRØDFLAGER, GRAN OST & GRILLED PEBERFRUGT DRESSING.",
     "bbox": [
       367,
       496,
@@ -111,7 +111,7 @@
   },
   {
     "type": "description",
-    "description": "SVAMPEBOF, POMMES FRITES & SYLTEDE AGURKER",
+    "description": "SVAMPEBØF, POMMES FRITES & SYLTEDE AGURKER",
     "bbox": [
       477,
       685,
@@ -131,7 +131,7 @@
   },
   {
     "type": "item",
-    "name": "RORT TATAR - BEEF TATAR",
+    "name": "RØRT TATAR - BEEF TATAR",
     "bbox": [
       604,
       732,
@@ -141,7 +141,7 @@
   },
   {
     "type": "description",
-    "description": "RA A.GGEBLOMME, KRYDRET MAYO & POMMES FRITES",
+    "description": "RÅ ÆGGEBLOMME, KRYDRET MAYO & POMMES FRITES",
     "bbox": [
       453,
       768,
@@ -161,7 +161,7 @@
   },
   {
     "type": "category",
-    "name": "BORN U. 12 AR - CHILDEREN'S MENU",
+    "name": "BØRN U. 12 AR - CHILDEREN'S MENU",
     "bbox": [
       356,
       877,

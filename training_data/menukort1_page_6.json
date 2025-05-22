@@ -21,7 +21,7 @@
   },
   {
     "type": "description",
-    "description": "POCHERET 2G, LUFTT@RRET SKINKE & SAUCE HOLLANDAISE",
+    "description": "POCHERET ÆG, LUFTTØRRET SKINKE & SAUCE HOLLANDAISE",
     "bbox": [
       414,
       428,
@@ -121,7 +121,7 @@
   },
   {
     "type": "description",
-    "description": "LOG, SYLTET BOGEHATTE & SAUCE VERDE",
+    "description": "LØG, SYLTET BØGEHATTE & SAUCE VERDE",
     "bbox": [
       522,
       846,
@@ -181,7 +181,7 @@
   },
   {
     "type": "description",
-    "description": "SPIDSKAL, KRY & @L/BLOMME SAUCE",
+    "description": "SPIDSKÅL, KRY & ØL/BLOMME SAUCE",
     "bbox": [
       551,
       1088,
@@ -221,7 +221,7 @@
   },
   {
     "type": "description",
-    "description": "3 SLAGS OSTE SERVE.\n\nMED KOMPOT & SPR@®DT BR@®D",
+    "description": "3 SLAGS OSTE SERVERES MED KOMPOT & SPRØDT BRØD",
     "bbox": [
       456,
       1270,
@@ -241,7 +241,7 @@
   },
   {
     "type": "item",
-    "name": "CREME BRULEE",
+    "name": "CRÉME BRÛLÉE",
     "bbox": [
       673,
       1350,
@@ -281,7 +281,7 @@
   },
   {
     "type": "description",
-    "description": "SKOVMAERKE - HAVRE - HVID CHOKOLADE",
+    "description": "SKOVMÆRKE - HAVRE - HVID CHOKOLADE",
     "bbox": [
       523,
       1506,

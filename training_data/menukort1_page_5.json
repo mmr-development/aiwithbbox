@@ -31,7 +31,7 @@
   },
   {
     "type": "item",
-    "name": "SALTEDE VALNODDER - SALTED WALNUTS",
+    "name": "SALTEDE VALNØDDER - SALTED WALNUTS",
     "bbox": [
       512,
       561,
@@ -51,7 +51,7 @@
   },
   {
     "type": "item",
-    "name": "BROD FLAGER - BREAD FLAKES",
+    "name": "BRØD FLAGER - BREAD FLAKES",
     "bbox": [
       575,
       657,
@@ -81,7 +81,7 @@
   },
   {
     "type": "item",
-    "name": "SPROD KYLLING - CRISPY CHICKEN",
+    "name": "SPRØD KYLLING - CRISPY CHICKEN",
     "bbox": [
       563,
       769,
@@ -91,7 +91,7 @@
   },
   {
     "type": "description",
-    "description": "EDDIKE SALT, PEBER/LIME MAYO & KRYDDERURTE STOV",
+    "description": "EDDIKE SALT, PEBER/LIME MAYO & KRYDDERURTE STØV",
     "bbox": [
       432,
       810,
@@ -111,7 +111,7 @@
   },
   {
     "type": "item",
-    "name": "@STERS NATURAL 3 STK - OYSTERS NATURAL 3 UNIT",
+    "name": "ØSTERS NATURAL 3 STK - OYSTERS NATURAL 3 UNIT",
     "bbox": [
       464,
       897,
@@ -151,7 +151,7 @@
   },
   {
     "type": "description",
-    "description": "CREME FRAICHE, SKALOTTELOG & BLINIS",
+    "description": "CRÉME FRAICHE, SKALOTTELØG & BLINIS",
     "bbox": [
       537,
       1047,

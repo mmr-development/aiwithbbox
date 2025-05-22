@@ -31,7 +31,7 @@
   },
   {
     "type": "description",
-    "description": "SALTEDE VALN@DDER, RODBEDER & KRYDDERURTE VINAIGRETTE",
+    "description": "SALTEDE VALNØDDER, RØDBEDER & KRYDDERURTE VINAIGRETTE",
     "bbox": [
       381,
       371,
@@ -51,7 +51,7 @@
   },
   {
     "type": "description",
-    "description": "SPRODE BRODFLAGER, GRAN OST & GRILLED PEBERFRUGTS DRESSING",
+    "description": "SPRØDE BRØDFLAGER, GRAN OST & GRILLED PEBERFRUGTS DRESSING",
     "bbox": [
       361,
       495,
@@ -71,7 +71,7 @@
   },
   {
     "type": "item",
-    "name": "RORT TATAR - BEEF TATAR",
+    "name": "RØRT TATAR - BEEF TATAR",
     "bbox": [
       591,
       578,
@@ -81,7 +81,7 @@
   },
   {
     "type": "description",
-    "description": "RA AGGGEBLOMME, KRYDRET MAYO & POMMES FRITES",
+    "description": "RÅ ÆGGEBLOMME, KRYDRET MAYO & POMMES FRITES",
     "bbox": [
       457,
       616,
@@ -111,7 +111,7 @@
   },
   {
     "type": "description",
-    "description": "GRILLET BR@D, CITRON & SAUCE TARTAR",
+    "description": "GRILLET BRØD, CITRON & SAUCE TARTAR",
     "bbox": [
       524,
       734,
@@ -171,7 +171,7 @@
   },
   {
     "type": "description",
-    "description": "SVAMPEBOPF, POMMES FRITES & SYLTEDE AGURKER",
+    "description": "SVAMPEBØPF, POMMES FRITES & SYLTEDE AGURKER",
     "bbox": [
       476,
       979,
@@ -201,7 +201,7 @@
   },
   {
     "type": "description",
-    "description": "SALSA VERDE, KARAMELSTEN & HVID BONNE CREM",
+    "description": "SALSA VERDE, KARAMELSTEN & HVID BØNNE CREME",
     "bbox": [
       462,
       1099,
@@ -221,7 +221,7 @@
   },
   {
     "type": "category",
-    "name": "S@DT & OST - SWEET & CHEESE",
+    "name": "SØDT & OST - SWEET & CHEESE",
     "bbox": [
       550,
       1256,
@@ -241,7 +241,7 @@
   },
   {
     "type": "description",
-    "description": "3 SLAGS OSTE SERVERES MED KOMPOT & SPRODT BROD",
+    "description": "3 SLAGS OSTE SERVERES MED KOMPOT & SPRØDT BRØD",
     "bbox": [
       441,
       1364,
@@ -261,7 +261,7 @@
   },
   {
     "type": "item",
-    "name": "CREME BRULEE",
+    "name": "CRÉME BRÛLÉE",
     "bbox": [
       674,
       1455,

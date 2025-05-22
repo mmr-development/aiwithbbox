@@ -18,6 +18,7 @@ class AnnotationTool:
         self.annotations = []
         self.bbox = None
         self.start_x = self.start_y = 0
+        self.ocr_language = "dan"
 
         # Set window size to max screen size
         screen_width = root.winfo_screenwidth() - 100
@@ -52,8 +53,22 @@ class AnnotationTool:
         tk.Button(btn_frame, text="Next Image", command=self.next_image).pack(side=tk.LEFT)
         tk.Button(btn_frame, text="Save Annotations", command=self.save_annotations).pack(side=tk.LEFT)
         tk.Button(btn_frame, text="Clear Boxes", command=self.clear_boxes).pack(side=tk.LEFT)
+        
+        # Language selection
+        self.lang_var = tk.StringVar(value="English")
+        lang_menu = tk.OptionMenu(btn_frame, self.lang_var, "English", "Danish", 
+                                 command=self.change_language)
+        lang_menu.pack(side=tk.RIGHT, padx=10)
+        tk.Label(btn_frame, text="OCR Language:").pack(side=tk.RIGHT)
 
         self.load_image()
+    
+    def change_language(self, selection):
+        if selection == "English":
+            self.ocr_language = "eng"
+        elif selection == "Danish":
+            self.ocr_language = "dan"
+        print(f"OCR language set to: {self.ocr_language}")
 
     def load_image(self):
         self.annotations = []
@@ -86,7 +101,17 @@ class AnnotationTool:
         x1, x2 = sorted([int(x1), int(x2)])
         y1, y2 = sorted([int(y1), int(y2)])
         cropped = self.img.crop((x1, y1, x2, y2))
-        extracted_text = pytesseract.image_to_string(cropped).strip()
+        
+        try:
+            # Pass the language parameter to Tesseract
+            extracted_text = pytesseract.image_to_string(cropped, lang=self.ocr_language).strip()
+        except pytesseract.TesseractNotFoundError:
+            messagebox.showerror("Error", "Tesseract not found. Please install Tesseract OCR.")
+            extracted_text = ""
+        except Exception as e:
+            messagebox.showerror("Error", f"OCR error: {str(e)}\nMake sure you have installed the Danish language pack for Tesseract.")
+            extracted_text = ""
+            
         self.show_annotation_type_dialog(x1, y1, x2, y2, extracted_text)
 
     def show_annotation_type_dialog(self, x1, y1, x2, y2, extracted_text):

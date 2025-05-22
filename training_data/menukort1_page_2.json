@@ -41,7 +41,7 @@
   },
   {
     "type": "item",
-    "name": "SALTEDE VALNODDER - SALTED WALNUTS",
+    "name": "SALTEDE VALNØDDER - SALTED WALNUTS",
     "bbox": [
       516,
       500,
@@ -61,7 +61,7 @@
   },
   {
     "type": "item",
-    "name": "BROD FLAGER - BREAD FLAKES",
+    "name": "BRØD FLAGER - BREAD FLAKES",
     "bbox": [
       588,
       563,
@@ -91,7 +91,7 @@
   },
   {
     "type": "item",
-    "name": "SPROD KYLLING - CRISPY CHICKEN",
+    "name": "SPRØD KYLLING - CRISPY CHICKEN",
     "bbox": [
       561,
       648,
@@ -101,7 +101,7 @@
   },
   {
     "type": "description",
-    "description": "EDDIKE SALT, PEBER/LIME MAYO & KRYDDERURTE STOV",
+    "description": "EDDIKE SALT, PEBER/LIME MAYO & KRYDDERURTE STØV",
     "bbox": [
       429,
       674,
@@ -121,7 +121,7 @@
   },
   {
     "type": "item",
-    "name": "@STERS NATURAL 3 STK - OYSTERS NATURAL 3 UNITS",
+    "name": "ØSTERS NATURAL 3 STK - OYSTERS NATURAL 3 UNITS",
     "bbox": [
       449,
       735,
@@ -161,7 +161,7 @@
   },
   {
     "type": "description",
-    "description": "CREME FRAICHE. SKALOTTELOG & BLINIS",
+    "description": "CRÉME FRAICHE. SKALOTTELOG & BLINIS",
     "bbox": [
       537,
       854,
@@ -181,7 +181,7 @@
   },
   {
     "type": "category",
-    "name": "SMORREBROD - OPEN FACE SANDWICH",
+    "name": "SMØRREBROD - OPEN FACE SANDWICH",
     "bbox": [
       510,
       1019,
@@ -201,7 +201,7 @@
   },
   {
     "type": "description",
-    "description": "LOGKOMPOT, RADISER & PURL@G",
+    "description": "LØGKOMPOT, RADISER & PURLØG",
     "bbox": [
       579,
       1121,
@@ -221,7 +221,7 @@
   },
   {
     "type": "item",
-    "name": "FRITERET RODSPATTE - FRIED PLAICE",
+    "name": "FRITERET RØDSPATTE - FRIED PLAICE",
     "bbox": [
       530,
       1171,
@@ -231,7 +231,7 @@
   },
   {
     "type": "description",
-    "description": "HOLLANDAIS\n\ni, HVIDE ASPARGES & REJER",
+    "description": "HOLLANDAISE, HVIDE ASPARGES & REJER",
     "bbox": [
       532,
       1206,
@@ -281,7 +281,7 @@
   },
   {
     "type": "item",
-    "name": "H@ONSESALAT - CHICKEN SALAD *",
+    "name": "HØONSESALAT - CHICKEN SALAD *",
     "bbox": [
       552,
       1348,
@@ -291,7 +291,7 @@
   },
   {
     "type": "description",
-    "description": "EBLE, BACON & FRITERET LOG",
+    "description": "ÆBLE, BACON & FRITERET LØG",
     "bbox": [
       591,
       1386,
@@ -311,7 +311,7 @@
   },
   {
     "type": "item",
-    "name": "DEN GRONNE - THE GREEN",
+    "name": "DEN GRØNNE - THE GREEN",
     "bbox": [
       572,
       1435,

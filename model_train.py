@@ -148,10 +148,10 @@ if __name__ == "__main__":
 
     args = TrainingArguments(
         output_dir=OUTPUT_DIR,
-        per_device_train_batch_size=32,
+        per_device_train_batch_size=6,
         num_train_epochs=500,
-        logging_steps=100,
-        save_steps=1000,
+        logging_steps=10,
+        save_steps= 1000,
         learning_rate=5e-5,
         report_to="none",
         seed=SEED,

@@ -5,9 +5,16 @@ from tkinter import simpledialog, messagebox
 from PIL import Image, ImageTk
 import pytesseract
 
+from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
+import torch
+
 IMAGES_DIR = "training_images"
 TRAINING_DATA_DIR = "training_data"
 os.makedirs(TRAINING_DATA_DIR, exist_ok=True)
+
+MODEL_DIR = "./layoutlmv3-menu"
+LABELS = ["O", "CATEGORY", "ITEM", "DESCRIPTION", "PRICE"]
+ID2LABEL = {i: label for i, label in enumerate(LABELS)}
 
 class AnnotationTool:
     def __init__(self, root):
@@ -46,6 +53,9 @@ class AnnotationTool:
         self.canvas.bind("<ButtonPress-1>", self.on_press)
         self.canvas.bind("<B1-Motion>", self.on_drag)
         self.canvas.bind("<ButtonRelease-1>", self.on_release)
+        self.canvas.bind("<MouseWheel>", self._on_mousewheel)  # Windows/Mac
+        self.canvas.bind("<Button-4>", self._on_mousewheel)    # Linux scroll up
+        self.canvas.bind("<Button-5>", self._on_mousewheel)
 
         btn_frame = tk.Frame(root)
         btn_frame.pack(fill=tk.X)
@@ -53,6 +63,7 @@ class AnnotationTool:
         tk.Button(btn_frame, text="Next Image", command=self.next_image).pack(side=tk.LEFT)
         tk.Button(btn_frame, text="Save Annotations", command=self.save_annotations).pack(side=tk.LEFT)
         tk.Button(btn_frame, text="Clear Boxes", command=self.clear_boxes).pack(side=tk.LEFT)
+        tk.Button(btn_frame, text="Suggest Annotations", command=self.suggest_annotations).pack(side=tk.LEFT)
         
         # Language selection
         self.lang_var = tk.StringVar(value="English")
@@ -61,8 +72,32 @@ class AnnotationTool:
         lang_menu.pack(side=tk.RIGHT, padx=10)
         tk.Label(btn_frame, text="OCR Language:").pack(side=tk.RIGHT)
 
+        # Load model and processor once
+        self.model, self.processor = None, None
+        self.load_model()
+
         self.load_image()
-    
+    def _on_mousewheel(self, event):
+        # Windows and MacOS
+        if hasattr(event, 'delta'):
+            self.canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+        # Linux (event.num 4=up, 5=down)
+        elif hasattr(event, 'num'):
+            if event.num == 4:
+                self.canvas.yview_scroll(-3, "units")
+            elif event.num == 5:
+                self.canvas.yview_scroll(3, "units")
+    def load_model(self):
+        try:
+            self.processor = LayoutLMv3Processor.from_pretrained(MODEL_DIR, apply_ocr=True)
+            self.model = LayoutLMv3ForTokenClassification.from_pretrained(MODEL_DIR)
+            self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            self.model.to(self.device)
+            self.model.eval()
+        except Exception as e:
+            print(f"Could not load model: {e}")
+            self.model = None
+
     def change_language(self, selection):
         if selection == "English":
             self.ocr_language = "eng"
@@ -117,28 +152,34 @@ class AnnotationTool:
     def show_annotation_type_dialog(self, x1, y1, x2, y2, extracted_text):
         dialog = tk.Toplevel(self.root)
         dialog.title("Select Annotation Type")
-        dialog.geometry("400x200")
+        dialog.geometry("500x200")
         tk.Label(dialog, text="Select annotation type:").pack(pady=10)
 
-        def add_category():
+        def add_other(event=None):
+            dialog.destroy()
+            name = self.ask_large_input("Other Annotation", "Enter annotation text:", extracted_text)
+            if name:
+                self.annotations.append({"type": "o", "text": name, "bbox": [x1, y1, x2, y2]})
+
+        def add_category(event=None):
             dialog.destroy()
             name = self.ask_large_input("Category Name", "Category Name:", extracted_text)
             if name:
                 self.annotations.append({"type": "category", "name": name, "bbox": [x1, y1, x2, y2]})
 
-        def add_item():
+        def add_item(event=None):
             dialog.destroy()
             name = self.ask_large_input("Item Name", "Item Name:", extracted_text)
             if name:
                 self.annotations.append({"type": "item", "name": name, "bbox": [x1, y1, x2, y2]})
 
-        def add_price():
+        def add_price(event=None):
             dialog.destroy()
             price = self.ask_large_input("Price", "Price:", extracted_text)
             if price:
                 self.annotations.append({"type": "price", "price": price, "bbox": [x1, y1, x2, y2]})
 
-        def add_description():
+        def add_description(event=None):
             dialog.destroy()
             description = self.ask_large_input("Description", "Description:", extracted_text)
             if description:
@@ -146,10 +187,32 @@ class AnnotationTool:
 
         btn_frame = tk.Frame(dialog)
         btn_frame.pack(pady=10)
-        tk.Button(btn_frame, text="Category", width=12, command=add_category).pack(side=tk.LEFT, padx=5)
-        tk.Button(btn_frame, text="Item", width=12, command=add_item).pack(side=tk.LEFT, padx=5)
-        tk.Button(btn_frame, text="Price", width=12, command=add_price).pack(side=tk.LEFT, padx=5)
-        tk.Button(btn_frame, text="Description", width=12, command=add_description).pack(side=tk.LEFT, padx=5)
+        btn_other = tk.Button(btn_frame, text="Other", width=12, command=add_other)
+        btn_other.pack(side=tk.LEFT, padx=5)
+        btn_category = tk.Button(btn_frame, text="Category", width=12, command=add_category)
+        btn_category.pack(side=tk.LEFT, padx=5)
+        btn_item = tk.Button(btn_frame, text="Item", width=12, command=add_item)
+        btn_item.pack(side=tk.LEFT, padx=5)
+        btn_price = tk.Button(btn_frame, text="Price", width=12, command=add_price)
+        btn_price.pack(side=tk.LEFT, padx=5)
+        btn_description = tk.Button(btn_frame, text="Description", width=12, command=add_description)
+        btn_description.pack(side=tk.LEFT, padx=5)
+
+        dialog.bind("<o>", add_other)
+        dialog.bind("<O>", add_other)
+        dialog.bind("<c>", add_category)
+        dialog.bind("<C>", add_category)
+        dialog.bind("<i>", add_item)
+        dialog.bind("<I>", add_item)
+        dialog.bind("<p>", add_price)
+        dialog.bind("<P>", add_price)
+        dialog.bind("<d>", add_description)
+        dialog.bind("<D>", add_description)
+
+        dialog.focus_force()
+        dialog.grab_set()
+        dialog.lift()
+
 
         def on_close():
             dialog.destroy()
@@ -196,6 +259,52 @@ class AnnotationTool:
     def clear_boxes(self):
         self.annotations = []
         self.load_image()
+
+    def suggest_annotations(self):
+        if not self.model or not self.processor:
+            messagebox.showerror("Error", "Model not loaded.")
+            return
+        # Run model inference on current image
+        img_path = os.path.join(IMAGES_DIR, self.image_files[self.current_image_idx])
+        image = Image.open(img_path).convert("RGB")
+        encoding = self.processor(
+            image,
+            return_tensors="pt",
+            truncation=True,
+            padding="max_length",
+            max_length=512
+        )
+        for k in encoding:
+            encoding[k] = encoding[k].to(self.device)
+        with torch.no_grad():
+            outputs = self.model(**encoding)
+            logits = outputs.logits
+            predictions = torch.argmax(logits, dim=-1).squeeze().cpu().numpy()
+        tokens = self.processor.tokenizer.convert_ids_to_tokens(encoding["input_ids"].squeeze().cpu().numpy())
+        boxes = encoding["bbox"].squeeze().cpu().numpy()
+        labels = [ID2LABEL.get(int(pred), "O") for pred in predictions]
+
+        # Clear previous suggestions
+        self.clear_boxes()
+        # Add suggested annotations (skip "O" label and special tokens)
+        for token, label, box in zip(tokens, labels, boxes):
+            if label == "O" or token in self.processor.tokenizer.all_special_tokens:
+                continue
+            x1, y1, x2, y2 = [int(b * image.width / 1000) if i % 2 == 0 else int(b * image.height / 1000) for i, b in enumerate(box)]
+            # Add to annotations
+            ann = {"type": label.lower(), "bbox": [x1, y1, x2, y2]}
+            if label == "PRICE":
+                ann["price"] = token
+            elif label == "ITEM":
+                ann["name"] = token
+            elif label == "CATEGORY":
+                ann["name"] = token
+            elif label == "DESCRIPTION":
+                ann["description"] = token
+            self.annotations.append(ann)
+            # Draw box
+            self.canvas.create_rectangle(x1, y1, x2, y2, outline="blue", width=2)
+        messagebox.showinfo("Suggestions", "Suggested annotations added. Please review and edit as needed.")
 
 if __name__ == "__main__":
     root = tk.Tk()

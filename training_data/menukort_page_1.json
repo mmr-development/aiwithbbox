@@ -1,252 +1,162 @@
 [
   {
-    "type": "category",
-    "name": "MAD",
+    "type": "o",
+    "text": "GRAND",
     "bbox": [
-      134,
-      575,
-      281,
-      638
+      92,
+      155,
+      986,
+      491
     ]
   },
   {
-    "type": "item",
-    "name": "Quiche fra l'Education Nationale",
-    "bbox": [
-      143,
-      689,
-      621,
-      732
-    ]
-  },
-  {
-    "type": "description",
-    "description": "Vælg mellem: Bacon og løg eller spinat og gedeost\nServeres med salat",
-    "bbox": [
-      141,
-      742,
-      789,
-      812
-    ]
-  },
-  {
-    "type": "price",
-    "price": "125",
-    "bbox": [
-      856,
-      691,
-      923,
-      731
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Quiche med et glas vin",
-    "bbox": [
-      140,
-      841,
-      486,
-      892
-    ]
-  },
-  {
-    "type": "price",
-    "price": "165",
-    "bbox": [
-      846,
-      845,
-      926,
-      884
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Salade chévre chaud",
-    "bbox": [
-      137,
-      918,
-      454,
-      959
-    ]
-  },
-  {
-    "type": "price",
-    "price": "110",
-    "bbox": [
-      848,
-      915,
-      930,
-      957
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Grillet sandwich",
-    "bbox": [
-      139,
-      987,
-      387,
-      1032
-    ]
-  },
-  {
-    "type": "price",
-    "price": "85",
-    "bbox": [
-      873,
-      990,
-      926,
-      1028
-    ]
-  },
-  {
-    "type": "description",
-    "description": "Vælg mellem: Røget skinke/gouda-ost eller\nvegetar med bagt aubergine",
-    "bbox": [
-      137,
-      1040,
-      702,
-      1115
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Ristet økorugbrød med ost og salat",
-    "bbox": [
-      140,
-      1144,
-      670,
-      1193
-    ]
-  },
-  {
-    "type": "price",
-    "price": "55",
-    "bbox": [
-      870,
-      1147,
-      927,
-      1183
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Surdejsbolle med smør og ost",
-    "bbox": [
-      141,
-      1214,
-      586,
-      1260
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      877,
-      1217,
-      922,
-      1254
-    ]
-  },
-  {
-    "type": "category",
-    "name": "SNACKS",
+    "type": "o",
+    "text": "BESTIL VENLIGST I BAREN\nEGEN MAD OG DRIKKE MÅ IKKE MEDTAGES",
     "bbox": [
       136,
-      1376,
-      365,
-      1439
+      2576,
+      937,
+      2702
     ]
   },
   {
-    "type": "item",
-    "name": "Hjemmeristede salte mandler",
-    "bbox": [
-      137,
-      1491,
-      582,
-      1536
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      874,
-      1492,
-      924,
-      1530
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Oliven",
-    "bbox": [
-      137,
-      1539,
-      249,
-      1584
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      875,
-      1534,
-      926,
-      1578
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Frugt",
+    "type": "category",
+    "name": "TILBUD:",
     "bbox": [
       138,
-      1587,
-      228,
-      1632
-    ]
-  },
-  {
-    "type": "price",
-    "price": "8",
-    "bbox": [
-      889,
-      1584,
-      924,
-      1626
+      2231,
+      344,
+      2309
     ]
   },
   {
     "type": "category",
     "name": "KAGER",
     "bbox": [
-      140,
-      1705,
-      335,
-      1767
+      139,
+      1709,
+      350,
+      1772
+    ]
+  },
+  {
+    "type": "category",
+    "name": "SNACKS",
+    "bbox": [
+      125,
+      1348,
+      381,
+      1450
+    ]
+  },
+  {
+    "type": "category",
+    "name": "MAD",
+    "bbox": [
+      134,
+      578,
+      300,
+      644
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche fra 'Education Nationale",
+    "bbox": [
+      136,
+      681,
+      625,
+      733
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche med et glas vin",
+    "bbox": [
+      137,
+      832,
+      505,
+      898
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Salade chévre chaud",
+    "bbox": [
+      145,
+      920,
+      483,
+      971
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Grillet sandwich",
+    "bbox": [
+      136,
+      989,
+      402,
+      1038
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Ristet økorugbrød med ost og salat",
+    "bbox": [
+      128,
+      1138,
+      677,
+      1189
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Surdejsbolle med smør og ost",
+    "bbox": [
+      138,
+      1217,
+      598,
+      1258
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Hjemmeristede salte mandler",
+    "bbox": [
+      134,
+      1492,
+      584,
+      1535
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Oliven",
+    "bbox": [
+      132,
+      1543,
+      258,
+      1583
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Fruat",
+    "bbox": [
+      138,
+      1589,
+      236,
+      1625
     ]
   },
   {
     "type": "item",
     "name": "Croissant eller pain au chocolat",
     "bbox": [
-      142,
-      1818,
-      603,
-      1864
-    ]
-  },
-  {
-    "type": "price",
-    "price": "28",
-    "bbox": [
-      875,
-      1820,
-      925,
-      1859
+      139,
+      1814,
+      617,
+      1868
     ]
   },
   {
@@ -254,58 +164,28 @@
     "name": "Øko-rulle med pistacie/figen eller kokos/dadel",
     "bbox": [
       143,
-      1870,
-      832,
-      1909
-    ]
-  },
-  {
-    "type": "price",
-    "price": "32",
-    "bbox": [
-      873,
-      1867,
-      924,
-      1908
+      1863,
+      840,
+      1914
     ]
   },
   {
     "type": "item",
     "name": "Cookie",
     "bbox": [
-      143,
-      1916,
-      252,
-      1956
-    ]
-  },
-  {
-    "type": "price",
-    "price": "31",
-    "bbox": [
-      877,
-      1916,
-      921,
-      1955
+      138,
+      1917,
+      286,
+      1965
     ]
   },
   {
     "type": "item",
     "name": "Brownie eller Napoleonshat",
     "bbox": [
-      145,
-      1964,
-      552,
-      2005
-    ]
-  },
-  {
-    "type": "price",
-    "price": "30",
-    "bbox": [
-      876,
-      1963,
-      923,
+      131,
+      1958,
+      569,
       2003
     ]
   },
@@ -313,70 +193,210 @@
     "type": "item",
     "name": "Nødde- eller hindbærmazarin",
     "bbox": [
-      145,
+      135,
       2010,
-      583,
-      2052
+      613,
+      2066
+    ]
+  },
+  {
+    "type": "description",
+    "description": "Vælg mellem: Bacon og løg eller spinat og gedeost\nServeres med salat",
+    "bbox": [
+      133,
+      735,
+      804,
+      817
+    ]
+  },
+  {
+    "type": "description",
+    "description": "Vælg mellem: Røget skinke/gouda-ost eller\nvegetar med bagt aubergine",
+    "bbox": [
+      137,
+      1029,
+      708,
+      1120
     ]
   },
   {
     "type": "price",
-    "price": "32",
+    "price": "125",
     "bbox": [
-      877,
-      2011,
-      924,
-      2051
-    ]
-  },
-  {
-    "type": "category",
-    "name": "TILBUD",
-    "bbox": [
-      140,
-      2247,
-      283,
-      2297
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Filterkaffe eller te + cookie eller croissant",
-    "bbox": [
-      144,
-      2336,
-      810,
-      2384
-    ]
-  },
-  {
-    "type": "price",
-    "price": "50",
-    "bbox": [
-      869,
-      2339,
-      921,
-      2375
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Quiche + 1 glas vin",
-    "bbox": [
-      142,
-      2396,
-      463,
-      2445
+      857,
+      691,
+      939,
+      740
     ]
   },
   {
     "type": "price",
     "price": "165",
     "bbox": [
-      847,
-      2401,
-      919,
-      2438
+      844,
+      845,
+      942,
+      893
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      853,
+      910,
+      937,
+      965
+    ]
+  },
+  {
+    "type": "price",
+    "price": "85",
+    "bbox": [
+      868,
+      993,
+      933,
+      1041
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      874,
+      1133,
+      928,
+      1186
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      877,
+      1212,
+      929,
+      1259
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      875,
+      1494,
+      931,
+      1538
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      876,
+      1537,
+      927,
+      1580
+    ]
+  },
+  {
+    "type": "price",
+    "price": "8",
+    "bbox": [
+      895,
+      1588,
+      933,
+      1636
+    ]
+  },
+  {
+    "type": "price",
+    "price": "28",
+    "bbox": [
+      863,
+      1812,
+      936,
+      1866
+    ]
+  },
+  {
+    "type": "price",
+    "price": "32",
+    "bbox": [
+      875,
+      1863,
+      933,
+      1907
+    ]
+  },
+  {
+    "type": "price",
+    "price": "31",
+    "bbox": [
+      869,
+      1910,
+      929,
+      1953
+    ]
+  },
+  {
+    "type": "price",
+    "price": "30",
+    "bbox": [
+      861,
+      1960,
+      932,
+      2004
+    ]
+  },
+  {
+    "type": "price",
+    "price": "32",
+    "bbox": [
+      871,
+      2008,
+      930,
+      2054
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Filterkaffe eller te + cookie eller croissant",
+    "bbox": [
+      133,
+      2335,
+      824,
+      2398
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche + 1 glas vin",
+    "bbox": [
+      144,
+      2398,
+      475,
+      2449
+    ]
+  },
+  {
+    "type": "price",
+    "price": "165",
+    "bbox": [
+      833,
+      2395,
+      941,
+      2449
+    ]
+  },
+  {
+    "type": "price",
+    "price": "50",
+    "bbox": [
+      865,
+      2334,
+      937,
+      2389
     ]
   }
 ]

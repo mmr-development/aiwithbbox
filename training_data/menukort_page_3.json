@@ -1,152 +1,32 @@
 [
   {
+    "type": "o",
+    "text": "PLEASE ORDER AT THE BAR\n\nOUTSIDE FOOD AND DRINKS ARE NOT\nALLOWED",
+    "bbox": [
+      134,
+      2613,
+      851,
+      2810
+    ]
+  },
+  {
+    "type": "o",
+    "text": "(9:00 am - 4:30 pm)",
+    "bbox": [
+      134,
+      1330,
+      509,
+      1396
+    ]
+  },
+  {
     "type": "category",
     "name": "FOOD",
     "bbox": [
-      145,
-      580,
-      302,
+      144,
+      574,
+      314,
       642
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Quiche from l'Education Nationale",
-    "bbox": [
-      144,
-      695,
-      650,
-      734
-    ]
-  },
-  {
-    "type": "price",
-    "price": "125",
-    "bbox": [
-      857,
-      695,
-      924,
-      729
-    ]
-  },
-  {
-    "type": "description",
-    "description": "Choose between: Bacon and onion\nor spinach and goat cheese\nServed with a mixed salad",
-    "bbox": [
-      144,
-      737,
-      590,
-      847
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Quiche with a glass of wine",
-    "bbox": [
-      141,
-      874,
-      554,
-      922
-    ]
-  },
-  {
-    "type": "price",
-    "price": "165",
-    "bbox": [
-      858,
-      875,
-      924,
-      914
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Salade chévre chaud",
-    "bbox": [
-      140,
-      947,
-      461,
-      987
-    ]
-  },
-  {
-    "type": "price",
-    "price": "110",
-    "bbox": [
-      849,
-      950,
-      924,
-      986
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Grilled sandwich",
-    "bbox": [
-      145,
-      1017,
-      385,
-      1062
-    ]
-  },
-  {
-    "type": "price",
-    "price": "85",
-    "bbox": [
-      868,
-      1019,
-      924,
-      1056
-    ]
-  },
-  {
-    "type": "description",
-    "description": "Choose between: Smoked ham/gouda-cheese\nor vegetarian with baked eggplant",
-    "bbox": [
-      141,
-      1063,
-      740,
-      1139
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Toasted organic rye bread\nwith cheese and mixed vegetables",
-    "bbox": [
-      144,
-      1171,
-      664,
-      1260
-    ]
-  },
-  {
-    "type": "price",
-    "price": "55",
-    "bbox": [
-      865,
-      1168,
-      932,
-      1210
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Sourdough bun with butter and cheese",
-    "bbox": [
-      137,
-      1286,
-      724,
-      1328
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      877,
-      1287,
-      925,
-      1325
     ]
   },
   {
@@ -154,229 +34,369 @@
     "name": "SNACKS",
     "bbox": [
       137,
-      1447,
-      365,
-      1513
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Homemade salted almonds",
-    "bbox": [
-      144,
-      1564,
-      552,
-      1603
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      870,
-      1562,
-      925,
-      1601
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Olives",
-    "bbox": [
-      139,
-      1612,
-      241,
-      1652
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      874,
-      1608,
-      927,
-      1651
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Fruit",
-    "bbox": [
-      140,
-      1658,
-      223,
-      1696
-    ]
-  },
-  {
-    "type": "price",
-    "price": "8",
-    "bbox": [
-      889,
-      1659,
-      931,
-      1696
+      1420,
+      391,
+      1525
     ]
   },
   {
     "type": "category",
     "name": "CAKES",
     "bbox": [
-      142,
-      1770,
-      327,
-      1834
+      145,
+      1743,
+      349,
+      1847
+    ]
+  },
+  {
+    "type": "category",
+    "name": "SPECIAL OFFER:",
+    "bbox": [
+      136,
+      2282,
+      469,
+      2347
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche from 'Education Nationale",
+    "bbox": [
+      136,
+      683,
+      679,
+      739
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche with a glass of wine",
+    "bbox": [
+      143,
+      864,
+      566,
+      929
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Salade chévre chaud",
+    "bbox": [
+      149,
+      949,
+      464,
+      992
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Grilled sandwich",
+    "bbox": [
+      149,
+      1024,
+      394,
+      1056
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Toasted organic rye bread",
+    "bbox": [
+      139,
+      1155,
+      554,
+      1216
+    ]
+  },
+  {
+    "type": "item",
+    "name": "with cheese and mixed vegetables",
+    "bbox": [
+      133,
+      1210,
+      675,
+      1263
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Sourdough bun with butter and cheese",
+    "bbox": [
+      120,
+      1282,
+      740,
+      1327
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Homemade salted almonds",
+    "bbox": [
+      145,
+      1559,
+      563,
+      1607
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Olives",
+    "bbox": [
+      140,
+      1610,
+      288,
+      1654
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Fruit",
+    "bbox": [
+      128,
+      1655,
+      329,
+      1702
     ]
   },
   {
     "type": "item",
     "name": "Croissant or pain au chocolat",
     "bbox": [
-      146,
-      1885,
-      578,
-      1926
-    ]
-  },
-  {
-    "type": "price",
-    "price": "28",
-    "bbox": [
-      873,
-      1888,
-      925,
-      1923
+      131,
+      1887,
+      633,
+      1934
     ]
   },
   {
     "type": "item",
     "name": "Cookie",
     "bbox": [
-      147,
-      1938,
-      252,
-      1971
-    ]
-  },
-  {
-    "type": "price",
-    "price": "31",
-    "bbox": [
-      873,
-      1933,
-      923,
-      1973
+      132,
+      1936,
+      356,
+      1984
     ]
   },
   {
     "type": "item",
     "name": "Brownie or Napoleon's hat",
     "bbox": [
-      146,
-      1983,
-      533,
-      2022
-    ]
-  },
-  {
-    "type": "price",
-    "price": "30",
-    "bbox": [
-      874,
+      134,
       1982,
-      925,
-      2019
+      556,
+      2026
     ]
   },
   {
     "type": "item",
     "name": "Mazarin tart with nuts or raspberry",
     "bbox": [
-      145,
-      2030,
-      673,
-      2074
-    ]
-  },
-  {
-    "type": "price",
-    "price": "32",
-    "bbox": [
-      876,
-      2027,
-      923,
-      2066
+      134,
+      2016,
+      691,
+      2071
     ]
   },
   {
     "type": "item",
-    "name": "Organic chocolate roll with fig/pistachio or\ndate/coconut",
+    "name": "Organic chocolate roll with fig/pistachio or",
     "bbox": [
       142,
-      2081,
+      2075,
       785,
-      2167
-    ]
-  },
-  {
-    "type": "price",
-    "price": "32",
-    "bbox": [
-      878,
-      2078,
-      922,
-      2113
-    ]
-  },
-  {
-    "type": "category",
-    "name": "SPECIAL OFFER",
-    "bbox": [
-      140,
-      2299,
-      430,
-      2344
+      2126
     ]
   },
   {
     "type": "item",
-    "name": "Regular coffee or tea + cookie or croissant",
+    "name": "date/coconut",
     "bbox": [
-      141,
-      2388,
-      827,
-      2429
+      137,
+      2127,
+      378,
+      2175
     ]
   },
   {
     "type": "price",
-    "price": "50",
+    "price": "125",
     "bbox": [
-      870,
-      2391,
-      918,
-      2426
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Quiche + a glass of wine",
-    "bbox": [
-      139,
-      2440,
-      551,
-      2491
+      854,
+      687,
+      944,
+      746
     ]
   },
   {
     "type": "price",
     "price": "165",
     "bbox": [
-      843,
-      2446,
-      920,
-      2485
+      826,
+      859,
+      943,
+      930
+    ]
+  },
+  {
+    "type": "price",
+    "price": "110",
+    "bbox": [
+      826,
+      944,
+      985,
+      1000
+    ]
+  },
+  {
+    "type": "price",
+    "price": "85",
+    "bbox": [
+      833,
+      1023,
+      947,
+      1067
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      858,
+      1165,
+      945,
+      1208
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      866,
+      1267,
+      944,
+      1338
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      871,
+      1553,
+      938,
+      1617
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      871,
+      1609,
+      953,
+      1657
+    ]
+  },
+  {
+    "type": "price",
+    "price": "8",
+    "bbox": [
+      882,
+      1660,
+      960,
+      1701
+    ]
+  },
+  {
+    "type": "price",
+    "price": "28",
+    "bbox": [
+      864,
+      1883,
+      941,
+      1931
+    ]
+  },
+  {
+    "type": "price",
+    "price": "31",
+    "bbox": [
+      855,
+      1930,
+      946,
+      1980
+    ]
+  },
+  {
+    "type": "price",
+    "price": "30",
+    "bbox": [
+      865,
+      1980,
+      959,
+      2030
+    ]
+  },
+  {
+    "type": "price",
+    "price": "32",
+    "bbox": [
+      856,
+      2027,
+      975,
+      2078
+    ]
+  },
+  {
+    "type": "price",
+    "price": "32",
+    "bbox": [
+      864,
+      2078,
+      963,
+      2126
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Regular coffee or tea + cookie or croissant",
+    "bbox": [
+      131,
+      2387,
+      835,
+      2437
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Quiche + a glass of wine",
+    "bbox": [
+      134,
+      2438,
+      614,
+      2496
+    ]
+  },
+  {
+    "type": "price",
+    "price": "50",
+    "bbox": [
+      865,
+      2390,
+      941,
+      2435
+    ]
+  },
+  {
+    "type": "price",
+    "price": "165",
+    "bbox": [
+      844,
+      2444,
+      940,
+      2491
     ]
   }
 ]

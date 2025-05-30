@@ -1,162 +1,162 @@
 [
   {
+    "type": "o",
+    "text": "GRAND",
+    "bbox": [
+      75,
+      152,
+      996,
+      500
+    ]
+  },
+  {
+    "type": "description",
+    "description": "Vores kaffe er fra RIVER (økologisk og fairtrade)",
+    "bbox": [
+      138,
+      1117,
+      752,
+      1173
+    ]
+  },
+  {
+    "type": "description",
+    "description": "Vores te er fra Perch, flere varianter. Gratis refill af vand",
+    "bbox": [
+      145,
+      1246,
+      900,
+      1293
+    ]
+  },
+  {
+    "type": "o",
+    "text": "Spiritus: Tal med personalet",
+    "bbox": [
+      129,
+      2914,
+      597,
+      2954
+    ]
+  },
+  {
     "type": "category",
     "name": "VARME DRIKKE",
     "bbox": [
-      142,
-      577,
-      564,
-      637
+      115,
+      539,
+      593,
+      662
+    ]
+  },
+  {
+    "type": "category",
+    "name": "KOLDE DRIKKE",
+    "bbox": [
+      124,
+      1464,
+      563,
+      1570
+    ]
+  },
+  {
+    "type": "category",
+    "name": "ØL, VIN OG SPIRITUS",
+    "bbox": [
+      129,
+      1827,
+      692,
+      1931
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Hvidvin / rosé / bobler:",
+    "bbox": [
+      138,
+      2262,
+      534,
+      2318
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Rødvin:",
+    "bbox": [
+      144,
+      2580,
+      297,
+      2623
     ]
   },
   {
     "type": "item",
     "name": "Kaffe",
     "bbox": [
-      144,
-      690,
-      225,
-      731
-    ]
-  },
-  {
-    "type": "price",
-    "price": "27",
-    "bbox": [
-      874,
-      689,
-      922,
-      728
+      142,
+      681,
+      236,
+      737
     ]
   },
   {
     "type": "item",
     "name": "Refill",
     "bbox": [
-      143,
-      736,
-      222,
-      775
-    ]
-  },
-  {
-    "type": "price",
-    "price": "15",
-    "bbox": [
-      875,
-      735,
-      927,
-      774
+      142,
+      737,
+      244,
+      779
     ]
   },
   {
     "type": "item",
     "name": "Cortado eller flat white",
     "bbox": [
-      141,
-      784,
-      491,
-      825
-    ]
-  },
-  {
-    "type": "price",
-    "price": "40",
-    "bbox": [
-      876,
-      783,
-      925,
-      821
+      147,
+      788,
+      520,
+      820
     ]
   },
   {
     "type": "item",
     "name": "Espresso enkelt/dobbelt",
     "bbox": [
-      141,
-      830,
-      509,
-      878
-    ]
-  },
-  {
-    "type": "price",
-    "price": "28",
-    "bbox": [
-      820,
+      134,
       831,
-      864,
-      874
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      880,
-      834,
-      922,
-      872
+      515,
+      883
     ]
   },
   {
     "type": "item",
     "name": "Americano",
     "bbox": [
+      145,
+      883,
+      342,
+      927
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Café Latte lille/stor",
+    "bbox": [
+      134,
+      923,
+      451,
+      984
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Cappuccino lille/stor",
+    "bbox": [
       138,
-      880,
-      308,
-      921
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      876,
-      880,
-      924,
-      918
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Café Latte lille",
-    "bbox": [
-      141,
-      927,
-      358,
-      966
-    ]
-  },
-  {
-    "type": "price",
-    "price": "40",
-    "bbox": [
-      814,
-      927,
-      865,
-      966
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Cappuccino lille",
-    "bbox": [
-      139,
-      970,
-      374,
-      1015
-    ]
-  },
-  {
-    "type": "price",
-    "price": "40",
-    "bbox": [
-      818,
-      975,
-      865,
-      1012
+      964,
+      470,
+      1014
     ]
   },
   {
@@ -164,9 +164,389 @@
     "name": "Islatte m/u sirup",
     "bbox": [
       140,
-      1022,
-      395,
+      1024,
+      403,
       1066
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Ekstra skud espresso",
+    "bbox": [
+      140,
+      1068,
+      469,
+      1115
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Te",
+    "bbox": [
+      133,
+      1189,
+      203,
+      1232
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Varm kakao m/u flødeskum",
+    "bbox": [
+      144,
+      1320,
+      562,
+      1360
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Chai Latte",
+    "bbox": [
+      133,
+      1366,
+      338,
+      1423
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Antons økologiske saft",
+    "bbox": [
+      139,
+      1584,
+      520,
+      1646
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Kildevæld 50 cl",
+    "bbox": [
+      139,
+      1636,
+      382,
+      1682
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Kurvand med brus m/u citrus 50 cl",
+    "bbox": [
+      143,
+      1686,
+      677,
+      1733
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Sodavand",
+    "bbox": [
+      139,
+      1730,
+      325,
+      1777
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Lille fadøl 25 cl",
+    "bbox": [
+      123,
+      1961,
+      389,
+      2005
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Stor fadøl 50 cl",
+    "bbox": [
+      135,
+      2003,
+      411,
+      2049
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Lille sæson fadøl 25 cl",
+    "bbox": [
+      128,
+      2054,
+      498,
+      2107
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Stor sæson fadøl 50 cl",
+    "bbox": [
+      137,
+      2108,
+      497,
+      2156
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Flaskeøl 33 cl",
+    "bbox": [
+      131,
+      2153,
+      385,
+      2200
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Flaskeøl alkoholfri 33 cl",
+    "bbox": [
+      141,
+      2199,
+      512,
+      2242
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Riesling (Tyskland, tør og frisk)",
+    "bbox": [
+      143,
+      2323,
+      609,
+      2369
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Chardonnay (Frankrig, fyldig og frisk)",
+    "bbox": [
+      134,
+      2369,
+      723,
+      2414
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Marius (Frankrig, let og tør)",
+    "bbox": [
+      140,
+      2417,
+      571,
+      2467
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Rosé The Pale (Frankrig, tør og elegant)",
+    "bbox": [
+      140,
+      2468,
+      751,
+      2512
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Franske bobler (sec)",
+    "bbox": [
+      139,
+      2506,
+      493,
+      2570
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Pinot Noir, Chono (Chile, let og rund)",
+    "bbox": [
+      133,
+      2626,
+      717,
+      2681
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Valpolicella (Italien, let og elegant)",
+    "bbox": [
+      139,
+      2681,
+      677,
+      2726
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Marius (Frankrig, frugtig og fyldig)",
+    "bbox": [
+      143,
+      2725,
+      682,
+      2771
+    ]
+  },
+  {
+    "type": "item",
+    "name": "Drinks",
+    "bbox": [
+      140,
+      2824,
+      274,
+      2858
+    ]
+  },
+  {
+    "type": "item",
+    "name": "2 ens drinks",
+    "bbox": [
+      149,
+      2864,
+      362,
+      2908
+    ]
+  },
+  {
+    "type": "price",
+    "price": "27",
+    "bbox": [
+      865,
+      686,
+      934,
+      737
+    ]
+  },
+  {
+    "type": "price",
+    "price": "15",
+    "bbox": [
+      870,
+      740,
+      946,
+      774
+    ]
+  },
+  {
+    "type": "price",
+    "price": "40",
+    "bbox": [
+      873,
+      786,
+      941,
+      823
+    ]
+  },
+  {
+    "type": "price",
+    "price": "28",
+    "bbox": [
+      816,
+      824,
+      867,
+      869
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      880,
+      827,
+      936,
+      873
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      862,
+      879,
+      936,
+      923
+    ]
+  },
+  {
+    "type": "price",
+    "price": "40",
+    "bbox": [
+      817,
+      923,
+      865,
+      967
+    ]
+  },
+  {
+    "type": "price",
+    "price": "48",
+    "bbox": [
+      883,
+      933,
+      931,
+      962
+    ]
+  },
+  {
+    "type": "price",
+    "price": "40",
+    "bbox": [
+      813,
+      966,
+      868,
+      1013
+    ]
+  },
+  {
+    "type": "price",
+    "price": "48",
+    "bbox": [
+      877,
+      973,
+      935,
+      1013
+    ]
+  },
+  {
+    "type": "price",
+    "price": "50",
+    "bbox": [
+      858,
+      1025,
+      935,
+      1059
+    ]
+  },
+  {
+    "type": "o",
+    "text": "+10",
+    "bbox": [
+      846,
+      1062,
+      935,
+      1119
+    ]
+  },
+  {
+    "type": "price",
+    "price": "35",
+    "bbox": [
+      860,
+      1195,
+      936,
+      1237
+    ]
+  },
+  {
+    "type": "price",
+    "price": "50",
+    "bbox": [
+      863,
+      1313,
+      933,
+      1356
     ]
   },
   {
@@ -174,259 +554,69 @@
     "price": "50",
     "bbox": [
       866,
-      1022,
-      928,
-      1058
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Ekstra skud espresso",
-    "bbox": [
-      143,
-      1069,
-      457,
-      1110
-    ]
-  },
-  {
-    "type": "price",
-    "price": "10",
-    "bbox": [
-      881,
-      1067,
+      1346,
       936,
-      1111
-    ]
-  },
-  {
-    "type": "description",
-    "description": "Vores kaffe er fra RIVER (økologisk og fairtrade)",
-    "bbox": [
-      143,
-      1117,
-      748,
-      1165
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Te",
-    "bbox": [
-      144,
-      1190,
-      192,
-      1231
+      1409
     ]
   },
   {
     "type": "price",
     "price": "35",
     "bbox": [
-      873,
-      1191,
-      927,
-      1234
-    ]
-  },
-  {
-    "type": "description",
-    "description": "Vores te er fra Perch's, flere varianter. Gratis refill af vand",
-    "bbox": [
-      144,
-      1242,
-      880,
-      1283
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Varm kakao m/u flødeskum",
-    "bbox": [
-      141,
-      1318,
-      553,
-      1361
-    ]
-  },
-  {
-    "type": "price",
-    "price": "50",
-    "bbox": [
-      874,
-      1320,
-      925,
-      1354
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Chai Latte",
-    "bbox": [
-      140,
-      1365,
-      304,
-      1407
-    ]
-  },
-  {
-    "type": "price",
-    "price": "50",
-    "bbox": [
-      877,
-      1366,
-      926,
-      1402
-    ]
-  },
-  {
-    "type": "category",
-    "name": "KOLDE DRIKKE",
-    "bbox": [
-      142,
-      1479,
-      553,
-      1541
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Antons økologiske saft",
-    "bbox": [
-      143,
-      1598,
-      479,
-      1636
-    ]
-  },
-  {
-    "type": "price",
-    "price": "35",
-    "bbox": [
-      874,
-      1595,
-      924,
-      1633
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Kildevæld 50 cl",
-    "bbox": [
-      141,
-      1641,
-      387,
-      1681
+      863,
+      1585,
+      932,
+      1641
     ]
   },
   {
     "type": "price",
     "price": "25",
     "bbox": [
-      873,
-      1639,
-      924,
-      1680
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Kurvand med brus m/u citrus 50 cl",
-    "bbox": [
-      141,
-      1687,
-      675,
-      1731
+      864,
+      1641,
+      936,
+      1684
     ]
   },
   {
     "type": "price",
     "price": "33",
     "bbox": [
-      874,
+      866,
       1690,
-      925,
-      1727
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Sodavand",
-    "bbox": [
-      142,
-      1735,
-      298,
-      1778
+      941,
+      1728
     ]
   },
   {
     "type": "price",
     "price": "30",
     "bbox": [
-      874,
-      1740,
-      926,
-      1773
-    ]
-  },
-  {
-    "type": "item",
-    "name": "ØL, VIN OG SPIRITUS",
-    "bbox": [
-      143,
-      1845,
-      712,
-      1918
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Lille fadøl 25 cl",
-    "bbox": [
-      145,
-      1963,
-      374,
-      2004
+      867,
+      1727,
+      956,
+      1795
     ]
   },
   {
     "type": "price",
     "price": "40",
     "bbox": [
-      875,
-      1965,
-      925,
-      2002
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Stor fadøl 50 cl",
-    "bbox": [
-      143,
-      2012,
-      379,
-      2053
+      866,
+      1964,
+      933,
+      2008
     ]
   },
   {
     "type": "price",
     "price": "60",
     "bbox": [
-      878,
-      2012,
-      924,
+      861,
+      2010,
+      937,
       2052
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Lille sæson fadøl 25 cl",
-    "bbox": [
-      145,
-      2059,
-      479,
-      2096
     ]
   },
   {
@@ -434,89 +624,69 @@
     "price": "45",
     "bbox": [
       875,
-      2062,
-      923,
-      2096
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Stor sæson fadøl 50 cl",
-    "bbox": [
-      138,
-      2105,
-      488,
-      2144
+      2055,
+      937,
+      2101
     ]
   },
   {
     "type": "price",
     "price": "65",
     "bbox": [
-      875,
-      2105,
-      922,
-      2144
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Flaskeøl 33 cl",
-    "bbox": [
-      144,
-      2157,
-      354,
-      2192
+      869,
+      2100,
+      937,
+      2147
     ]
   },
   {
     "type": "price",
     "price": "45",
     "bbox": [
-      874,
-      2154,
-      925,
-      2190
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Flaskeøl alkoholfri 33 cl",
-    "bbox": [
-      146,
-      2203,
-      495,
-      2240
+      870,
+      2144,
+      936,
+      2197
     ]
   },
   {
     "type": "price",
     "price": "35",
     "bbox": [
-      872,
-      2199,
-      926,
-      2243
+      859,
+      2189,
+      932,
+      2236
     ]
   },
   {
-    "type": "category",
-    "name": "Hvidvin / rosé / bobler",
+    "type": "price",
+    "price": "68",
     "bbox": [
-      141,
-      2278,
-      487,
-      2314
+      874,
+      2308,
+      936,
+      2363
     ]
   },
   {
-    "type": "item",
-    "name": "Riesling (Tyskland, tør og frisk)",
+    "type": "price",
+    "price": "68",
     "bbox": [
-      142,
-      2319,
-      605,
-      2364
+      877,
+      2359,
+      928,
+      2415
+    ]
+  },
+  {
+    "type": "price",
+    "price": "55",
+    "bbox": [
+      867,
+      2417,
+      939,
+      2458
     ]
   },
   {
@@ -524,179 +694,69 @@
     "price": "68",
     "bbox": [
       869,
-      2322,
-      924,
-      2359
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Chardonnay (Frankrig, fyldig og frisk)",
-    "bbox": [
-      140,
-      2370,
-      703,
-      2410
+      2457,
+      947,
+      2504
     ]
   },
   {
     "type": "price",
     "price": "68",
     "bbox": [
-      873,
-      2368,
-      925,
-      2404
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Marius (Frankrig, let og tør)",
-    "bbox": [
-      142,
-      2416,
-      564,
-      2459
+      872,
+      2496,
+      945,
+      2555
     ]
   },
   {
     "type": "price",
-    "price": "55",
+    "price": "78",
     "bbox": [
-      873,
-      2415,
-      927,
-      2453
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Rosé The Pale (Frankrig, tør og elegant)",
-    "bbox": [
-      143,
-      2464,
-      741,
-      2505
+      862,
+      2617,
+      935,
+      2675
     ]
   },
   {
     "type": "price",
-    "price": "68",
+    "price": "78",
     "bbox": [
       865,
-      2458,
-      929,
-      2501
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Franske bobler (sec)",
-    "bbox": [
-      137,
-      2509,
-      452,
-      2556
-    ]
-  },
-  {
-    "type": "price",
-    "price": "68",
-    "bbox": [
-      867,
-      2511,
-      930,
-      2547
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Rødvin",
-    "bbox": [
-      144,
-      2582,
-      250,
-      2622
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Pinot Noir, Chono (Chile, let og rund)",
-    "bbox": [
-      143,
-      2632,
-      696,
-      2673
-    ]
-  },
-  {
-    "type": "price",
-    "price": "78",
-    "bbox": [
-      873,
-      2630,
-      922,
-      2667
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Valpolicella (Italien, let og elegant)",
-    "bbox": [
-      140,
-      2678,
-      661,
-      2719
-    ]
-  },
-  {
-    "type": "price",
-    "price": "78",
-    "bbox": [
-      875,
-      2678,
-      924,
-      2717
-    ]
-  },
-  {
-    "type": "item",
-    "name": "Marius (Frankrig, frugtig og fyldig)",
-    "bbox": [
-      142,
-      2723,
-      661,
-      2768
+      2674,
+      938,
+      2718
     ]
   },
   {
     "type": "price",
     "price": "55",
     "bbox": [
-      875,
-      2727,
-      925,
-      2762
+      871,
+      2717,
+      952,
+      2769
     ]
   },
   {
-    "type": "item",
-    "name": "2 ens drinks",
+    "type": "price",
+    "price": "75",
     "bbox": [
-      138,
-      2866,
-      334,
-      2908
+      858,
+      2819,
+      935,
+      2861
     ]
   },
   {
     "type": "price",
     "price": "130",
     "bbox": [
-      847,
-      2866,
-      929,
-      2905
+      850,
+      2864,
+      949,
+      2924
     ]
   }
 ]
